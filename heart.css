@@ -1,0 +1,47 @@
+.heart1{
+    height: 200px;
+    width: 250px;
+    margin: 200px  0px  0px 300px;
+    float: left;
+    background-color: red;
+    transform: rotate(-145deg);
+    box-sizing: border-box;
+    border-radius: 5px 100px 100px 150px;
+    /*transform: scale(0);*/
+    animation: love;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+.heart2{
+    height: 200px;
+    width: 250px;
+    margin: 200px  0px  0px -160px;
+    float: left;
+    background-color: red;
+    transform: rotate(145deg);
+    box-sizing: border-box;
+    border-radius: 150px 10px 30px 140px;
+    /*transform: scale(0);*/
+    animation: love;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes love {
+    0%{background-color: #ff021b}
+    25%{background-color: #ff383f}
+    50%{background-color: #ff6262}
+    75%{background-color: #ff898c}
+    100%{background-color: #ffe9f0}
+
+/*}*/
+/*.heart1:hover{*/
+    /*transform: scale(1.5);*/
+    /*transition: infinite;*/
+/*}*/
+/*}*/
+/*.heart2:hover{*/
+    /*transform: scale(1.5);*/
+/*}*/
